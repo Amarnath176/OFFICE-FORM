@@ -1,0 +1,80 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+
+body {
+    background-image:url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRmbd3Qhui7jmaSNoQ2enaLj5YB7LZoLssckhndLh3ET_2Dwn--va26kmpxnLUg7IIdcG4&usqp=CAU") ;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+
+.container {
+    background-image: url("https://images.pexels.com/photos/4014721/pexels-photo-4014721.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 600px;
+}
+
+
+h2 {
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+
+.form-group label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+.form-group input,
+.form-group textarea,
+.form-group button {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid rgb(0, 0, 0);
+    border-radius: 4px;
+   
+}
+
+
+.form-group .radio-group {
+    display: flex;
+    justify-content: space-between;
+   
+}
+
+
+.form-group .radio-group label {
+    font-weight: normal;
+   
+}
+
+
+.form-group button {
+    background-color: #f30606;
+    color: rgb(17, 17, 17);
+    border: black;
+    cursor: pointer;
+}
+
+
+.form-group button:hover {
+    background-color: #08fc08;
+}
